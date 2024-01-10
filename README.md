@@ -37,9 +37,8 @@ torch=1.8.1
 │   │── testing
 │   │   ├──calib & image_2
 
-
-* The dense depth files at: [Google Drive](https://drive.google.com/file/d/1mlHtG8ZXLfjm0lSpUOXHulGF9fsthRtM/view?usp=sharing) 
 ```
+* The dense depth files at: [Google Drive](https://drive.google.com/file/d/1mlHtG8ZXLfjm0lSpUOXHulGF9fsthRtM/view?usp=sharing) 
 
 ### Training & Testing
 
