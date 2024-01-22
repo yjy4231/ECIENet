@@ -2,9 +2,8 @@
 
 ## Introduction
 
-This is the PyTorch implementation of our soon paper.
+This is the PyTorch implementation of our paper "Monocular 3D object detection based on context information enhancement and deep guidance".
 
-Our training weights will be provided after the paper is accepted!
 
 ## Overview
 
@@ -26,6 +25,7 @@ torch=1.8.1
 
 ### Dataset Preparation
 
+#### KITTI
 * Please download the official [KITTI 3D object detection](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d) dataset and organize the downloaded files as follows:
 
 ```
@@ -38,7 +38,11 @@ torch=1.8.1
 │   │   ├──calib & image_2
 
 ```
-* The dense depth files at: [Google Drive](https://drive.google.com/file/d/1mlHtG8ZXLfjm0lSpUOXHulGF9fsthRtM/view?usp=sharing) 
+* The dense depth files at: [Google Drive](https://drive.google.com/file/d/1mlHtG8ZXLfjm0lSpUOXHulGF9fsthRtM/view?usp=sharing)
+
+#### Waymo
+You can follow the [Blog](https://blog.csdn.net/zltjohn/article/details/125010804) to convert the Waymo Dataset.
+
 
 ### Training & Testing
 
