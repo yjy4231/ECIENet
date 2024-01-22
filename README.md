@@ -45,6 +45,10 @@ You can follow the [Blog](https://blog.csdn.net/zltjohn/article/details/12501080
 
 
 ### Training & Testing
+* #### Test our paper's result
+```
+upload the add_DL_lapulasi_lr09.zip to KITTI benchmark
+```
 
 * #### Test and evaluate the pretrained models
 
